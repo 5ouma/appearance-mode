@@ -16,7 +16,9 @@ body {
     background-color: var(--backgroundColor);
     color: var(--textColor);
     overflow-x: hidden;
+    font-family: sans-serif;
     font-size: 50px;
+    font-weight: bold;
 }
 
 ::selection {

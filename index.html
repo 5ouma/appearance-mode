@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Appearance Mode Check</title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id="parent">
+            <h1 id="appearanceHed">Now loading…</h1>
+        </div>
+        <script>
+            function seeAppearanceMode() {
+                if(window.matchMedia('(prefers-color-scheme: dark)').matches === false) {
+                document.getElementById("appearanceHed").textContent = "Light Mode";
+                } else if(window.matchMedia('(prefers-color-scheme: dark)').matches === true) {
+                document.getElementById("appearanceHed").textContent = "Dark Mode";
+                } else {
+                    document.getElementById("appearanceHed").textContent = "It doesn't get Appearance Mode";
+                }
+            }
+            setInterval(() => {
+                seeAppearanceMode();
+            }, 500);
+        </script>
+    </body>
+
+</html>

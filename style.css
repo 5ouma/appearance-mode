@@ -1,0 +1,42 @@
+@media (prefers-color-scheme: light) {
+    body {
+        --backgroundColor: #f4f4f4;
+        --textColor: #242424;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --backgroundColor: #242424;
+        --textColor: #f4f4f4;
+    }
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    overflow-x: hidden;
+    font-size: 50px;
+}
+
+::selection {
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}
+
+
+.parent {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    /* top と left に 50% を指定して、要素の左上を中央にする. */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    /* tarnslate で要素の縦横それぞれ50%分の長さを動かすことで、要素を中央にする. */
+    transform: translate(-50%, -50%);
+}

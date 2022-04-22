@@ -8,3 +8,4 @@ You can access from these domains.
 - [appear.vercel.app](https://appear.vercel.app)
 - [lightmode.vercel.app](https://lightmode.vercel.app)
 - [light-mode.vercel.app](https://light-mode.vercel.app)
+- [apmc.vercel.app](https://apmc.vercel.app)

@@ -16,9 +16,16 @@ body {
     background-color: var(--backgroundColor);
     color: var(--textColor);
     overflow-x: hidden;
+    overflow-y: hidden;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 7vw;
     font-weight: bold;
+}
+
+@media screen and (min-width: 1920px) {
+    br {
+        display: none;
+    }
 }
 
 ::selection {
@@ -26,19 +33,16 @@ body {
     color: var(--backgroundColor);
 }
 
-
 .parent {
     position: relative;
-    width: 500px;
-    height: 500px;
+    height: 10em;
 }
 
 h1 {
-    /* top と left に 50% を指定して、要素の左上を中央にする. */
     position: absolute;
-    top: 40%;
+    margin: 0;
+    top: 50%;
     left: 50%;
-
-    /* tarnslate で要素の縦横それぞれ50%分の長さを動かすことで、要素を中央にする. */
-    transform: translate(-50%, -50%);
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }

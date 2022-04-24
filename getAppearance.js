@@ -1,5 +1,5 @@
 setInterval(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches === false) {
+    if (window.matchMedia("(prefers-color-scheme: light)").matches === true) {
         document.getElementById("appearanceHed").textContent = "Light Mode";
     } else if (
         window.matchMedia("(prefers-color-scheme: dark)").matches === true

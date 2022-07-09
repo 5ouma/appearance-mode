@@ -7,6 +7,6 @@ setInterval(() => {
         document.getElementById("appearanceHed").textContent = "Dark Mode";
     } else {
         document.getElementById("appearanceHed").textContent =
-            "It doesn't get Appearance Mode";
+            "It couldn't get appearance mode";
     }
 }, 300);

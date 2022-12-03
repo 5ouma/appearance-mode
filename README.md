@@ -1,7 +1,7 @@
 <br>
 
 <h1 align="center">Appearance Mode</h1>
-<p align="center">This site shows which appearance mode your device is in.</p>
+<p align="center">Show which appearance mode your device is in.</p>
 
 <br><br>
 
@@ -13,8 +13,8 @@ This is the main domain,
 
 but you can also access these domains. (You'll be redirected to the above domain.)
 
--   #### [appearancemode.vercel.app](https://appearancemode.vercel.app)
--   #### [aprm.vercel.app](https://aprm.vercel.app)
--   #### [appearance.vercel.app](https://appearance.vercel.app)
--   #### [appear.vercel.app](https://appear.vercel.app)
--   #### [appearmode.vercel.app](https://appearmode.vercel.app)
+- #### [appearancemode.vercel.app](https://appearancemode.vercel.app)
+- #### [aprm.vercel.app](https://aprm.vercel.app)
+- #### [appearance.vercel.app](https://appearance.vercel.app)
+- #### [appear.vercel.app](https://appear.vercel.app)
+- #### [appearmode.vercel.app](https://appearmode.vercel.app)

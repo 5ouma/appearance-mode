@@ -1,48 +1,48 @@
 @media (prefers-color-scheme: light) {
-    body {
-        --backgroundColor: #f4f4f4;
-        --textColor: #242424;
-    }
+  body {
+    --backgroundColor: #f4f4f4;
+    --textColor: #242424;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        --backgroundColor: #242424;
-        --textColor: #f4f4f4;
-    }
+  body {
+    --backgroundColor: #242424;
+    --textColor: #f4f4f4;
+  }
 }
 
 body {
-    background-color: var(--backgroundColor);
-    color: var(--textColor);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    font-family: sans-serif;
-    font-size: 7vw;
-    font-weight: bold;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: sans-serif;
+  font-size: 7vw;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 1920px) {
-    br {
-        display: none;
-    }
+  br {
+    display: none;
+  }
 }
 
 ::selection {
-    background-color: var(--textColor);
-    color: var(--backgroundColor);
+  background-color: var(--textColor);
+  color: var(--backgroundColor);
 }
 
 .parent {
-    position: relative;
-    height: 10em;
+  position: relative;
+  height: 10em;
 }
 
 h1 {
-    position: absolute;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }

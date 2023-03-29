@@ -12,7 +12,7 @@
 
 <br><br>
 
-## How to access this?
+## Available domains
 
 This is the main domain,
 

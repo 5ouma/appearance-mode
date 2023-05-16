@@ -1,9 +1,14 @@
 <br />
 
-<h1 align="center">Appearance Mode</h1>
-<p align="center">Show which appearance mode your device is in.</p>
+<div align="center">
 
-<br />
+# Appearance Mode
+
+**Show which appearance mode your device is in.**
+
+</div>
+
+<br /><br />
 
 |        |                      Light                      |                     Dark                      |
 | :----: | :---------------------------------------------: | :-------------------------------------------: |
@@ -16,7 +21,7 @@
 
 This is the main domain,
 
-### **[appearance-mode.vercel.app](https://appearance-mode.vercel.app)**<br />
+### [appearance-mode.vercel.app](https://appearance-mode.vercel.app)<br />
 
 but you can also access these domains. (You'll be redirected to the above domain.)
 

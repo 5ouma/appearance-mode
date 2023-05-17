@@ -4,7 +4,7 @@
 
 # Appearance Mode
 
-**Show which appearance mode your device is in.**
+**🌗 Show which appearance mode your device is in.**
 
 </div>
 

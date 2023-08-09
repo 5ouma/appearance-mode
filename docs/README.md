@@ -10,10 +10,10 @@
 
 <br /><br />
 
-|        |                      Light                      |                     Dark                      |
-| :----: | :---------------------------------------------: | :-------------------------------------------: |
-|  Mac   |     ![mac-light](images/mac/mac-light.png)      |     ![mac-dark](images/mac/mac-dark.png)      |
-| iPhone | ![iphone-light](images/iphone/iphone-light.png) | ![iphone-dark](images/iphone/iphone-dark.png) |
+|        |                       Light                       |                      Dark                       |
+| :----: | :-----------------------------------------------: | :---------------------------------------------: |
+|  Mac   |     ![mac-light](./images/mac/mac-light.png)      |     ![mac-dark](./images/mac/mac-dark.png)      |
+| iPhone | ![iphone-light](./images/iphone/iphone-light.png) | ![iphone-dark](./images/iphone/iphone-dark.png) |
 
 <br /><br />
 

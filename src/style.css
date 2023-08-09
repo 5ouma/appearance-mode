@@ -1,3 +1,8 @@
+body {
+  --backgroundColor: #242424;
+  --textColor: #f4f4f4;
+}
+
 @media (prefers-color-scheme: light) {
   body {
     --backgroundColor: #f4f4f4;

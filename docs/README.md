@@ -1,8 +1,6 @@
-<br />
+<h1 align="center">Appearance Mode</h1>
 
 <div align="center">
-
-# Appearance Mode
 
 **🌗 Show which appearance mode your device is in.**
 

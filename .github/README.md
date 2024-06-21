@@ -4,7 +4,6 @@
 
 **🌗 Show which appearance mode your device is in**
 
-[![GitHub Release](https://img.shields.io/github/v/release/5ouma/appearance-mode?style=flat-square)](https://github.com/5ouma/appearance-mode/releases)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/appearance-mode?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/appearance-mode?style=flat-square)
 [![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/appearance-mode?style=flat-square)](https://github.com/5ouma/appearance-mode/commit/HEAD)

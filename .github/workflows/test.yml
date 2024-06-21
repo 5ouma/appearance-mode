@@ -1,0 +1,46 @@
+name: 🧪 Test
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - "**.ts"
+      - "deno.lock"
+      - ".github/workflows/test.yml"
+  pull_request:
+    paths:
+      - "**.ts"
+      - "deno.lock"
+      - ".github/workflows/test.yml"
+
+jobs:
+  Test:
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: 🚚 Checkout Repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: 🦕 Setup Deno
+        uses: denoland/setup-deno@041b854f97b325bd60e53e9dc2de9cb9f9ac0cba # v1.1.4
+        with:
+          deno-version: v1.x
+
+      - name: 🧪 Run Tests
+        run: deno task cov
+
+      - name: 🧹 Lint Check
+        run: deno lint
+
+      - name: 📝 Format Check
+        run: deno fmt --check
+
+      - name: 🔍 Type Check
+        run: deno check ./**/*.ts
+
+      - name: ☂️ Upload Coverage
+        uses: codecov/codecov-action@e28ff129e5465c2c0dcc6f003fc735cb6ae0c673 # v4.5.0
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

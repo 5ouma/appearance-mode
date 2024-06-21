@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light dark;
+  --text-color: light-dark(#242424, #f4f4f4);
+  --background-color: light-dark(#f4f4f4, #242424);
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+::selection {
+  color: var(--background-color);
+  background-color: var(--text-color);
+}
+
+@media screen and (min-width: 1024px) {
+  br {
+    display: none;
+  }
+}
+
+h1 {
+  font-family: "Hiragino Sans W6";
+  font-size: 7rem;
+
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

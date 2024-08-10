@@ -1,7 +1,6 @@
 {
   "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
   "fmt": { "exclude": ["LICENSE", ".github/**/*.md"] },
-  "test": { "include": ["src/", "test/"] },
   "tasks": {
     "run": "deno run --allow-read=. --allow-net='0.0.0.0'",
     "start": "deno task run ./src/server.ts",

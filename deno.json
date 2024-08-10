@@ -16,7 +16,7 @@
   },
   "deploy": {
     "project": "appearance-mode",
-    "include": ["./deno.json", "./src/", "./static/"],
+    "include": ["./deno.json", "./src/", "./public/"],
     "entrypoint": "./src/server.ts"
   }
 }

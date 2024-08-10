@@ -14,21 +14,21 @@ Deno.test("Serve", async <R extends string>(t: Deno.TestContext) => {
     assertEquals(ctx.response.status, STATUS_CODE.OK);
   });
 
-  await t.step("/static/index.html", async () => {
+  await t.step("/public/index.html", async () => {
     const ctx: RouterContext<R> = testing.createMockContext({
       method: "GET",
-      path: `/static/style.css`,
+      path: `/public/style.css`,
     });
     await router.routes()(ctx, () => Promise.resolve());
 
     assertEquals(ctx.response.status, STATUS_CODE.OK);
-    assertEquals(ctx.response.body, await Deno.readFile("./static/style.css"));
+    assertEquals(ctx.response.body, await Deno.readFile("./public/style.css"));
   });
 
-  await t.step("/static/unknown", async () => {
+  await t.step("/public/unknown", async () => {
     const ctx: RouterContext<R> = testing.createMockContext({
       method: "GET",
-      path: `/static/unknown`,
+      path: `/public/unknown`,
     });
     await router.routes()(ctx, () => Promise.resolve());
 

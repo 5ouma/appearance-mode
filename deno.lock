@@ -19,7 +19,7 @@
       "jsr:@std/fmt@1.0.0": "jsr:@std/fmt@1.0.0",
       "jsr:@std/http@0.223": "jsr:@std/http@0.223.0",
       "jsr:@std/http@0.224": "jsr:@std/http@0.224.5",
-      "jsr:@std/http@1.0.2": "jsr:@std/http@1.0.2",
+      "jsr:@std/http@1.0.3": "jsr:@std/http@1.0.3",
       "jsr:@std/internal@^1.0.1": "jsr:@std/internal@1.0.1",
       "jsr:@std/io@0.223": "jsr:@std/io@0.223.0",
       "jsr:@std/media-types@0.223": "jsr:@std/media-types@0.223.0",
@@ -108,8 +108,8 @@
           "jsr:@std/encoding@1.0.0-rc.2"
         ]
       },
-      "@std/http@1.0.2": {
-        "integrity": "e28d612e2b5e0a40704e8c64d9a5d55cf8c6accf6d798cd1cfb43aad02d1e4fe"
+      "@std/http@1.0.3": {
+        "integrity": "bff3770c4df4711567de1711fe988d28db9535be0c9b0f1d2de8d0fb97e8b44c"
       },
       "@std/internal@1.0.1": {
         "integrity": "6f8c7544d06a11dd256c8d6ba54b11ed870aac6c5aeafff499892662c57673e6"
@@ -146,7 +146,7 @@
       "jsr:@oak/oak@16.1.0",
       "jsr:@std/assert@1.0.2",
       "jsr:@std/fmt@1.0.0",
-      "jsr:@std/http@1.0.2"
+      "jsr:@std/http@1.0.3"
     ]
   }
 }

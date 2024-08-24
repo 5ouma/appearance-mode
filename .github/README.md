@@ -41,7 +41,7 @@
 
 2. Install [Deno](https://deno.com)
 
-3. Run the [`server.ts`](../src/server.ts) via these task runners
+3. Run the [`server.tsx`](../src/server.tsx) via these task runners
 
    ```sh
    # For production

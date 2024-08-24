@@ -1,24 +1,11 @@
-import { Application } from "@oak/oak";
-import type { ApplicationListenEvent } from "@oak/oak/application";
-import { yellow } from "@std/fmt/colors";
-import { router } from "./router.ts";
+import { type Context, Hono } from "@hono/hono";
+import { serveStatic } from "@hono/hono/deno";
+import { STATUS_CODE } from "@std/http/status";
 
-const app = new Application();
+export const app = new Hono();
+app
+  .use("/", serveStatic({ path: "./public/index.html" }))
+  .use("/public/*", serveStatic({ root: "./" }))
+  .get("*", (ctx: Context) => ctx.redirect("/", STATUS_CODE.SeeOther));
 
-app.use(router.routes());
-app.use(router.allowedMethods());
-
-app.addEventListener(
-  "listen",
-  ({ secure, hostname, port }: ApplicationListenEvent) => {
-    console.log(
-      `🔔 listening: ${
-        yellow(
-          `${secure ? "https" : "http"}://${hostname ?? "localhost"}:${port}`,
-        )
-      }`,
-    );
-  },
-);
-
-await app.listen({ port: 8080 });
+Deno.serve(app.fetch);

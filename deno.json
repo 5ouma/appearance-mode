@@ -5,9 +5,9 @@
   },
   "fmt": { "exclude": ["LICENSE", ".github/**/*.md"] },
   "tasks": {
-    "run": "deno run --allow-read='./public/' --allow-net='0.0.0.0'",
-    "start": "deno task run ./src/server.tsx",
-    "dev": "deno task run --watch ./src/server.tsx",
+    "run": "deno run --allow-read='public/' --allow-net='0.0.0.0'",
+    "start": "deno task run src/server.tsx",
+    "dev": "deno task run --watch src/server.tsx",
     "test": "deno test --allow-read='./public/' --allow-net='0.0.0.0' --parallel --shuffle",
     "cov": "deno task test --coverage && deno coverage --lcov > coverage.lcov"
   },
@@ -18,7 +18,8 @@
   },
   "deploy": {
     "project": "appearance-mode",
-    "include": ["./deno.json", "./src/", "./public/"],
+    "include": ["deno.json", "src/", "public/"],
+    "exclude": ["**/*.test.ts"],
     "entrypoint": "./src/server.tsx"
   }
 }

@@ -1,15 +1,25 @@
 import type { FC } from "@hono/hono/jsx";
 
-import { Head } from "./head.tsx";
+import { Head, type siteInfo } from "./head.tsx";
 import { Body } from "./body.tsx";
 
-const siteInfo = {
+const siteInfo: siteInfo = {
   title: "Appearance Mode",
   description: "🌗 Show which appearance mode your device is in",
   icon: "/public/favicon.icns",
   css: "/public/style.css",
 };
 
+/**
+ * The home page of the site
+ *
+ * @returns The home page JSX element
+ *
+ * @example
+ * ```tsx
+ * <Home />
+ * ```
+ */
 export const Home: FC = () => (
   <html lang="en">
     <head>

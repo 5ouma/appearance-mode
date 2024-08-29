@@ -1,5 +1,6 @@
 import { type Context, Hono } from "@hono/hono";
 import { serveStatic } from "@hono/hono/deno";
+import { logger } from "@hono/hono/logger";
 import { STATUS_CODE } from "@std/http/status";
 
 import { Home } from "./components/home.tsx";
@@ -17,6 +18,7 @@ import { Home } from "./components/home.tsx";
  * ```
  */
 export const app = new Hono();
+app.use(logger());
 app
   .get("/", (ctx: Context) => ctx.html(<Home />))
   .use("/public/*", serveStatic({ root: "./" }))

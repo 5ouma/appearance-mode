@@ -1,4 +1,5 @@
 import type { FC } from "@hono/hono/jsx";
+export type { FC };
 
 import { Head, type siteInfo } from "./head.tsx";
 import { Body } from "./body.tsx";

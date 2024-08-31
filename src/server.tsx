@@ -20,7 +20,7 @@ import { Home } from "./components/home.tsx";
 export const app = new Hono();
 app.use(logger());
 app
-  .get("/", (ctx: Context) => ctx.html(<Home />))
+  .get("/", (ctx: Context) => ctx.html("<!DOCTYPE html>" + <Home />))
   .use("/public/*", serveStatic({ root: "./" }))
   .get("*", (ctx: Context) => ctx.redirect("/", STATUS_CODE.SeeOther));
 

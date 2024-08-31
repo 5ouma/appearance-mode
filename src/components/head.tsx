@@ -42,6 +42,7 @@ export const Head: FC<siteInfo> = (props: PropsWithChildren<siteInfo>) => (
   <Fragment>
     <meta charset="UTF-8" />
     <meta name="color-scheme" content="light dark" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
     <title>{props.title}</title>
     <meta name="description" content={props.description} />
     <link rel="icon" href={props.icon} />

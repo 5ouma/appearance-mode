@@ -1,11 +1,12 @@
 setInterval(() => {
+  const text = document.getElementsByTagName("h1")[0];
   if (globalThis.matchMedia("(prefers-color-scheme: light)").matches === true) {
-    document.getElementsByTagName("h1")[0].textContent = "Light Mode";
+    text.textContent = "Light Mode";
   } else if (
     globalThis.matchMedia("(prefers-color-scheme: dark)").matches === true
   ) {
-    document.getElementsByTagName("h1")[0].textContent = "Dark Mode";
+    text.textContent = "Dark Mode";
   } else {
-    document.getElementsByTagName("h1")[0].textContent = "No Pref";
+    text.textContent = "No Pref";
   }
 }, 300);

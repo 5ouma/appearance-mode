@@ -5,7 +5,6 @@ import { type FC, Fragment, type PropsWithChildren } from "@hono/hono/jsx";
  *
  * @property title The title of the site
  * @property description The description of the site
- * @property icon The icon path of the site
  * @property css The CSS file path of the site
  *
  * @example
@@ -13,7 +12,6 @@ import { type FC, Fragment, type PropsWithChildren } from "@hono/hono/jsx";
  * const siteInfo: siteInfo = {
  *   title: "Appearance Mode",
  *   description: "🌗 Show which appearance mode your device is in"
- *   icon: "/public/favicon.icns",
  *   css: "/public/style.css",
  * };
  * ```
@@ -21,7 +19,6 @@ import { type FC, Fragment, type PropsWithChildren } from "@hono/hono/jsx";
 export type siteInfo = {
   title: string;
   description: string;
-  icon: string;
   css: string;
 };
 
@@ -45,7 +42,6 @@ export const Head: FC<siteInfo> = (props: PropsWithChildren<siteInfo>) => (
     <meta name="viewport" content="width=device-width, initial-scale=0.4" />
     <title>{props.title}</title>
     <meta name="description" content={props.description} />
-    <link rel="icon" href={props.icon} />
     <link rel="stylesheet" type="text/css" href={props.css} />
   </Fragment>
 );

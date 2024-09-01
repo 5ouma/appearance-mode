@@ -10,6 +10,12 @@ Deno.test("Serve", async (t: Deno.TestContext) => {
     assertEquals(res.status, STATUS_CODE.OK);
   });
 
+  await t.step("/favicon.ico", async () => {
+    const res: Response = await app.request("/favicon.ico");
+    await res.text();
+
+    assertEquals(res.status, STATUS_CODE.OK);
+  });
   await t.step("/public/style.css", async () => {
     const res: Response = await app.request("/public/style.css");
     await res.text();

@@ -7,7 +7,6 @@ import { Body } from "./body.tsx";
 const siteInfo: siteInfo = {
   title: "Appearance Mode",
   description: "🌗 Show which appearance mode your device is in",
-  icon: "/public/favicon.icns",
   css: "/public/style.css",
 };
 

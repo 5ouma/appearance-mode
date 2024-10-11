@@ -15,6 +15,7 @@ import { Home } from "./components/home.tsx";
  * @example Request a static file
  * ```ts
  * const res: Response = await app.request("/public/style.css");
+ * await res.body?.cancel();
  * ```
  */
 export const app = new Hono();

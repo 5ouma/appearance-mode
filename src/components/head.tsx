@@ -9,9 +9,10 @@ import { type FC, Fragment, type PropsWithChildren } from "@hono/hono/jsx";
  *
  * @example
  * ```ts
+ * import type { siteInfo } from "./head.tsx";
  * const siteInfo: siteInfo = {
  *   title: "Appearance Mode",
- *   description: "🌗 Show which appearance mode your device is in"
+ *   description: "🌗 Show which appearance mode your device is in",
  *   css: "/public/style.css",
  * };
  * ```
@@ -30,7 +31,12 @@ export type siteInfo = {
  *
  * @example
  * ```tsx
- * const siteInfo: siteInfo = {};
+ * import type { siteInfo } from "./head.tsx";
+ * const siteInfo: siteInfo = {
+ *   title: "Appearance Mode",
+ *   description: "🌗 Show which appearance mode your device is in",
+ *   css: "/public/style.css",
+ * };
  * <Head {...siteInfo} />
  * ```
  * @see {@link siteInfo}

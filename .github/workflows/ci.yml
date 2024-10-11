@@ -7,11 +7,13 @@ on:
     paths:
       - "**.ts"
       - deno.lock
+      - .github/actions/setup-deno-with-cache
       - .github/workflows/ci.yml
   pull_request:
     paths:
       - "**.ts"
       - deno.lock
+      - .github/actions/setup-deno-with-cache
       - .github/workflows/ci.yml
 
 jobs:

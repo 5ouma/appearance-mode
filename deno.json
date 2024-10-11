@@ -5,9 +5,9 @@
   },
   "fmt": { "exclude": ["LICENSE", ".github/**/*.md"] },
   "tasks": {
-    "run": "deno run -R='public/' -N='0.0.0.0'",
-    "start": "deno task run src/server.tsx",
-    "dev": "deno task run --watch src/server.tsx",
+    "serve": "deno serve -R='public/'",
+    "start": "deno task serve src/server.tsx",
+    "dev": "deno task serve --watch src/server.tsx",
     "test": "deno test --doc -R='./public/' --parallel --shuffle",
     "cov": "deno task test --coverage && deno coverage --lcov > coverage.lcov"
   },

@@ -18,12 +18,11 @@ import { Home } from "./components/home.tsx";
  * await res.body?.cancel();
  * ```
  */
-export const app = new Hono();
+const app = new Hono();
+export default app;
 app.use(logger());
 app
   .get("/", (ctx: Context) => ctx.html("<!DOCTYPE html>" + <Home />))
   .use("/favicon.ico", serveStatic({ path: "./public/favicon.ico" }))
   .use("/public/*", serveStatic({ root: "./" }))
   .get("*", (ctx: Context) => ctx.redirect("/", STATUS_CODE.SeeOther));
-
-Deno.serve(app.fetch);

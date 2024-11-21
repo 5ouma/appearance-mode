@@ -18,7 +18,7 @@
   },
   "deploy": {
     "project": "appearance-mode",
-    "include": ["deno.json", "src/", "public/"],
+    "include": ["deno.json", "deno.lock", "src/", "public/"],
     "exclude": ["**/*.test.ts"],
     "entrypoint": "./src/server.tsx"
   }

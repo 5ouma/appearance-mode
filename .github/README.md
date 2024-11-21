@@ -11,7 +11,7 @@
 <br />
 [![CI](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/ci.yml?label=ci&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/ci.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/5ouma/appearance-mode/main.svg?style=flat-square)](https://results.pre-commit.ci/latest/github/5ouma/appearance-mode/main)
-[![codecov](https://codecov.io/github/5ouma/appearance-mode/graph/badge.svg?token=OQB55KXJIL)](https://codecov.io/github/5ouma/appearance-mode)
+[![codecov](https://codecov.io/github/5ouma/appearance-mode/graph/badge.svg)](https://codecov.io/github/5ouma/appearance-mode)
 
 </div>
 

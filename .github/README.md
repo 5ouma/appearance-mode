@@ -10,7 +10,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/appearance-mode?style=flat-square)](https://github.com/5ouma/appearance-mode/commits/main)
 <br />
 [![CI](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/ci.yml?label=ci&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/ci.yml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/5ouma/appearance-mode/main.svg?style=flat-square)](https://results.pre-commit.ci/latest/github/5ouma/appearance-mode/main)
+[![pre-commit](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/pre-commit.yml?label=pre-commit&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/pre-commit.yml)
 [![codecov](https://codecov.io/github/5ouma/appearance-mode/graph/badge.svg)](https://codecov.io/github/5ouma/appearance-mode)
 
 </div>

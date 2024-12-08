@@ -17,20 +17,6 @@
 
 <br /><br />
 
-## 🌄 Preview
-
-|        |      Light      |      Dark      |
-| :----: | :-------------: | :------------: |
-|  Mac   |  ![mac-light]   |  ![mac-dark]   |
-| iPhone | ![iphone-light] | ![iphone-dark] |
-
-[mac-light]: ./images/mac/mac-light.png
-[mac-dark]: ./images/mac/mac-dark.png
-[iphone-light]: ./images/iphone/iphone-light.png
-[iphone-dark]: ./images/iphone/iphone-dark.png
-
-<br /><br />
-
 ## 🔨 Development
 
 1. Clone this repository

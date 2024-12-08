@@ -3,7 +3,6 @@
     "jsx": "precompile",
     "jsxImportSource": "@hono/hono/jsx"
   },
-  "fmt": { "exclude": ["LICENSE", ".github/**/*.md"] },
   "tasks": {
     "serve": "deno serve -R='public/'",
     "start": "deno task serve src/server.tsx",

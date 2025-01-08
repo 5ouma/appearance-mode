@@ -4,14 +4,13 @@
 
 **🌗 Show which appearance mode your device is in**
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/appearance-mode?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/appearance-mode?style=flat-square)
-[![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/appearance-mode?style=flat-square)](https://github.com/5ouma/appearance-mode/commit/HEAD)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/appearance-mode?style=flat-square)](https://github.com/5ouma/appearance-mode/commits/main)
 <br />
-[![CI](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/ci.yml?label=ci&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/ci.yml)
+
+[![CI](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/ci.yml?label=CI&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/ci.yml)
 [![pre-commit](https://img.shields.io/github/actions/workflow/status/5ouma/appearance-mode/pre-commit.yml?label=pre-commit&style=flat-square)](https://github.com/5ouma/appearance-mode/actions/workflows/pre-commit.yml)
 [![codecov](https://codecov.io/github/5ouma/appearance-mode/graph/badge.svg)](https://codecov.io/github/5ouma/appearance-mode)
+
+![Repobeats Analytics Image](https://repobeats.axiom.co/api/embed/9e11969bab784c7f6c51c2daf3db83c11fdcd318.svg)
 
 </div>
 

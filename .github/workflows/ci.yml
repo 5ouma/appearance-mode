@@ -16,6 +16,8 @@ on:
       - .github/actions/setup-deno-with-cache
       - .github/workflows/ci.yml
 
+permissions: {}
+
 jobs:
   lint:
     name: 🧹 Lint

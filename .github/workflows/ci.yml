@@ -15,6 +15,7 @@ on:
       - deno.lock
       - .github/actions/setup-deno-with-cache
       - .github/workflows/ci.yml
+  workflow_call:
 
 permissions: {}
 

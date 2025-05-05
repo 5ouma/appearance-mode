@@ -9,7 +9,7 @@
     "start": "deno task serve src/server.tsx",
     "dev": "deno task serve --watch src/server.tsx",
     "test": "deno test --doc -R='./public/' --parallel --shuffle",
-    "cov": "deno task test --coverage && deno coverage --lcov > coverage.lcov"
+    "test:cov": "deno task test --coverage --junit-path='junit.xml'"
   },
   "imports": {
     "@hono/hono": "jsr:@hono/hono@4.7.7",

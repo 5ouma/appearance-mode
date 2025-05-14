@@ -26,7 +26,7 @@ jobs:
 
       - name: 🔒 Update Lock File
         id: update
-        uses: 5ouma/utils/update-deno-lock-file@5d4d9189866ac7eb6c2d0534cf535f3f1f571cff # v0.1.4
+        uses: 5ouma/utils/update-deno-lock-file@f5466cbecd9bcaa9d35e14ece162ca78122406d3 # v0.1.5
 
   ci:
     name: 🎽 CI

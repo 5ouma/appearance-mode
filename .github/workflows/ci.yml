@@ -58,14 +58,7 @@ jobs:
           persist-credentials: false
 
       - name: 🦕 Setup Deno
-        id: setup-deno
         uses: denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb # v2.0.3
-        with:
-          cache: true
-
-      - name: 📦 Install Dependencies
-        if: ${{ steps.setup-deno.outputs.cache-hit != 'true' }}
-        run: deno install --frozen
 
       - name: 📝 Format Check
         run: deno fmt --check

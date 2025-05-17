@@ -72,7 +72,7 @@ jobs:
         uses: 5ouma/utils/setup-deno-with-cache@f5466cbecd9bcaa9d35e14ece162ca78122406d3 # v0.1.5
 
       - name: 🔍 Type Check
-        run: deno check --doc ./src
+        run: deno check --doc
 
   test:
     name: 🧪 Test

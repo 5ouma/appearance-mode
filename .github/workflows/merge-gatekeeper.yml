@@ -7,6 +7,7 @@ permissions: {}
 
 jobs:
   merge-gatekeeper:
+    name: 🛡️ Merge Gatekeeper
     permissions:
       checks: read
       statuses: read

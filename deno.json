@@ -3,12 +3,12 @@
     "jsx": "precompile",
     "jsxImportSource": "@hono/hono/jsx"
   },
+  "permissions": { "default": { "read": ["public/"] } },
   "lock": { "frozen": true },
   "tasks": {
-    "serve": "deno serve -R='public/'",
-    "start": "deno task serve src/server.tsx",
-    "dev": "deno task serve --watch src/server.tsx",
-    "test": "deno test --doc -R='./public/' --parallel --shuffle",
+    "start": "deno serve -P src/server.tsx",
+    "dev": "deno serve -P --watch src/server.tsx",
+    "test": "deno test -P --parallel --doc --shuffle",
     "test:cov": "deno task test --coverage --junit-path='junit.xml'"
   },
   "imports": {

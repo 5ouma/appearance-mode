@@ -19,7 +19,7 @@ permissions: {}
 jobs:
   lint:
     name: 🧹 Lint
-    runs-on: Ubuntu-Latest
+    runs-on: Ubuntu-Slim
     timeout-minutes: 1
 
     steps:
@@ -46,7 +46,7 @@ jobs:
 
   format:
     name: 📝 Format
-    runs-on: Ubuntu-Latest
+    runs-on: Ubuntu-Slim
     timeout-minutes: 1
 
     steps:
@@ -63,7 +63,7 @@ jobs:
 
   type-check:
     name: 🔍 Type Check
-    runs-on: Ubuntu-Latest
+    runs-on: Ubuntu-Slim
     timeout-minutes: 1
 
     steps:
@@ -87,7 +87,7 @@ jobs:
 
   test:
     name: 🧪 Test
-    runs-on: Ubuntu-Latest
+    runs-on: Ubuntu-Slim
     timeout-minutes: 1
 
     steps:

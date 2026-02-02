@@ -2,8 +2,8 @@
   "version": "5",
   "specifiers": {
     "jsr:@hono/hono@4.11.7": "4.11.7",
-    "jsr:@std/assert@1.0.17": "1.0.17",
-    "jsr:@std/cli@^1.0.25": "1.0.26",
+    "jsr:@std/assert@1.0.18": "1.0.18",
+    "jsr:@std/cli@^1.0.25": "1.0.27",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
     "jsr:@std/fmt@^1.0.8": "1.0.9",
     "jsr:@std/fs@^1.0.21": "1.0.22",
@@ -20,14 +20,14 @@
     "@hono/hono@4.11.7": {
       "integrity": "2a0dc00088fbef98b76f575e3c4ab3d2c770d5e6095be215ae05c2aef25b363a"
     },
-    "@std/assert@1.0.17": {
-      "integrity": "df5ebfffe77c03b3fa1401e11c762cc8f603d51021c56c4d15a8c7ab45e90dbe",
+    "@std/assert@1.0.18": {
+      "integrity": "270245e9c2c13b446286de475131dc688ca9abcd94fc5db41d43a219b34d1c78",
       "dependencies": [
         "jsr:@std/internal"
       ]
     },
-    "@std/cli@1.0.26": {
-      "integrity": "53679a2b041406f15c3ff193986852595f3d11ba7b9d4b0c71a42589662e8fb5"
+    "@std/cli@1.0.27": {
+      "integrity": "eba97edd0891871a7410e835dd94b3c260c709cca5983df2689c25a71fbe04de"
     },
     "@std/encoding@1.0.10": {
       "integrity": "8783c6384a2d13abd5e9e87a7ae0520a30e9f56aeeaa3bdf910a3eaaf5c811a1"
@@ -91,7 +91,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@4.11.7",
-      "jsr:@std/assert@1.0.17",
+      "jsr:@std/assert@1.0.18",
       "jsr:@std/http@1.0.23"
     ]
   }

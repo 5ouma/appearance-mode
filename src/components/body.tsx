@@ -11,7 +11,7 @@ import { type FC, Fragment, type PropsWithChildren } from "@hono/hono/jsx";
  * <Body>Appearance Mode</Body>
  * ```
  */
-export const Body: FC = (props: PropsWithChildren) => (
+export const Body = (props: PropsWithChildren): ReturnType<FC> => (
   <Fragment>
     <h1>{props.children}</h1>
     <script type="text/javascript" src="/public/script.js"></script>

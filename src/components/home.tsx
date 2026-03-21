@@ -20,7 +20,7 @@ const siteInfo: siteInfo = {
  * <Home />
  * ```
  */
-export const Home: FC = () => (
+export const Home = (): ReturnType<FC> => (
   <html lang="en">
     <head>
       <Head {...siteInfo} />

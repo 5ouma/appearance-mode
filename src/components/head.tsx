@@ -41,7 +41,9 @@ export type siteInfo = {
  * ```
  * @see {@link siteInfo}
  */
-export const Head: FC<siteInfo> = (props: PropsWithChildren<siteInfo>) => (
+export const Head = (
+  props: PropsWithChildren<siteInfo>,
+): ReturnType<FC<siteInfo>> => (
   <Fragment>
     <meta charset="UTF-8" />
     <meta name="color-scheme" content="light dark" />

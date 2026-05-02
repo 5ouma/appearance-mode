@@ -4,7 +4,6 @@
     "jsxImportSource": "@hono/hono/jsx"
   },
   "permissions": { "default": { "read": ["public/"] } },
-  "lock": { "frozen": true },
   "tasks": {
     "start": "deno serve -P src/server.tsx",
     "dev": "deno serve -P --watch src/server.tsx",
